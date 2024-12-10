@@ -1,10 +1,10 @@
-# Image-Classification-using-ML
-Implementation-of-ML-model-for-image-classification is a Streamlit app that integrates MobileNetV2 and a CIFAR-10 and MobileNetV2 (ImageNet) model for image classification. Users can upload images and receive predictions with confidence scores from either model. It features a sleek navigation bar for easy switching and real-time results, which is ideal for learning and practical use.
+# Implementation-of-ML-model-for-image-classification
+Implementation-of-ML-model-for-image-classification is a Streamlit app that integrates MobileNetV2 and a CIFAR-10 model for image classification. Users can upload images and receive predictions with confidence scores from either model. It features a sleek navigation bar for easy switching and real-time results, which is ideal for learning and practical use.
 
 ## Key Features
 
 - **Dual Model Support**:
-  - **MobileNetV2 (ImageNet)**: Recognizes 1,000 different classes from the ImageNet dataset, including everyday objects, animals, and vehicles,train,bus,elephant,human,bottle.
+  - **MobileNetV2 (ImageNet)**: Recognizes 1,000 different classes from the ImageNet dataset, including everyday objects, animals, and vehicles.
   - **Custom CIFAR-10 Model**: Specializes in classifying images into one of ten specific categories such as airplanes, automobiles, and birds.
 
 - **Intuitive Interface**:
@@ -19,14 +19,14 @@ Implementation-of-ML-model-for-image-classification is a Streamlit app that inte
 
 ### Prerequisites
 
-- Python 3.12 or later
+- Python 3.7 or later
 - A web browser
 
 ### Installation
 
 1. **Clone the repository**:
    ```bash
-   
+   git clone https://github.com/JayRathod341997/DeepLensX.git
    cd Implementation-of-ML-model-for-image-classification
 2. **Create and activate a virtual environment**:
     ```bash
@@ -37,7 +37,7 @@ Implementation-of-ML-model-for-image-classification is a Streamlit app that inte
     pip install -r requirements.txt
 4. **Start the Streamlit app**:
     ```bash
-    streamlit run streamlitapp.py
+    streamlit run app.py
 5. **Open the app**: 
     The app will open in your default web browser. If not, navigate to http://localhost:8501
 
